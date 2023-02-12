@@ -1,0 +1,139 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	font-family: "verdana";
+}
+
+#navbar {
+	overflow: hidden;
+	background-color: #f1f1f1;
+	padding: 34px 10px;
+	transition: 0.4s;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 99;
+}
+	/* Crousel display none */
+@media screen and (max-width: 1000px) {
+	#demo {
+		display: none;
+	}
+}
+
+/* Nav link hover  */
+.navbar-nav .nav-item .nav-link:hover {
+	color: paleturquoise;
+}
+
+/* Tag Link */
+.tag_link {
+	padding: 0px 20px;
+	color: black;
+	text-align: center;
+	font-size: 12px;
+	border: 1px solid black;
+	min-width: 50px;
+	max-width: 70px;
+	min-height: 50px;
+	max-height: 70px;
+}
+
+.tag_link:hover {
+	background-color: black;
+	text-decoration: none;
+	color: aquamarine;
+}
+
+.card i:hover {
+	font-size: 30px;
+}
+
+.card:hover {
+	font-size: 19px;
+}
+
+/* Counter */
+.counting .num {
+	font-size: 35px;
+}
+
+.counting i {
+	font-size: 18px;
+}
+
+.counting .name {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 775px) {
+	#myimge {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	#myimge {
+		width: 100%;
+	}
+}
+
+/* Nav tab */
+.border_right {
+	border-right: 1px solid black;
+}
+
+#nav_tab {
+	font-size: 12px;
+}
+
+/* About us Page Header */
+#pageheader {
+	height: 150px;
+	background: #eee;
+	/* line-height: 400px; */
+}
+
+.page-a {
+	line-height: 150px;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+
+/* Crousel Navigation */
+#myCarousel {
+	--carousel-button-bg: #fff;
+
+	--carousel-button-width: 48px;
+	--carousel-button-height: 48px;
+
+	--carousel-button-svg-width: 27px;
+	--carousel-button-svg-height: 27px;
+	--carousel-button-svg-stroke-width: 1.5;
+
+	--carousel-button-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+		rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+		rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.carousel__button.is-prev {
+	left: 70px;
+}
+
+.carousel__button.is-next {
+	right: 70px;
+}
+
+/* Services link */
+.services i:hover{
+	opacity: 0.6px;
+	font-size: 25px;
+	color: lightskyblue;
+}
